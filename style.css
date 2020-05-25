@@ -1,0 +1,98 @@
+body {
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  color: violet;
+  text-decoration: none;
+}
+
+.box {
+  background-color: Transparent;
+  border: solid white 5px;
+  color: white;
+  width: 275px;
+  height: 510px;
+  background-position: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.titlebox {
+  background-color: mistyrose;
+  width: 100%;
+  margin: 0px;
+  height: 200px;
+  padding: 0px;
+}
+
+.titletext {
+  margin: auto;
+  line-height: 15px;
+}
+
+.fbox {
+  background-color: lightblue;
+  width: 100%;
+  margin: 0px;
+  height: 950px;
+  padding: 0px;
+}
+
+.etext {
+  margin: 15px;
+  line-height: 17px;
+  color: white;
+}
+
+.ebox {
+  background-color: black;
+  width: 100%;
+  margin: 0px;
+  height: 230px;
+  padding: 0px;
+}
+
+.etext {
+  margin: 10px;
+  line-height: 20px;
+  color: white;
+}
+
+input[type=email] {
+  padding: 12px 20px;
+  margin-bottom: 8px;
+  line-height: 10px;
+  box-sizing: border-box;
+  width: 90%;
+}
+
+.ebutton {
+  transition: 0.4s;
+  outline: aqua;
+  width: 80%;
+  height: 40px;
+  background-color: white;
+  color: black;
+  border: solid white 5px;
+}
+
+e.button:hover {
+  background-color: black;
+  color: white;
+}
