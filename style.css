@@ -16,6 +16,10 @@ h1 {
   font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
 a {
   font-family: 'Roboto', sans-serif;
   color: violet;
@@ -50,7 +54,7 @@ a {
   background-color: lightblue;
   width: 100%;
   margin: 0px;
-  height: 950px;
+  height: 890px;
   padding: 0px;
 }
 
@@ -95,4 +99,37 @@ input[type=email] {
 e.button:hover {
   background-color: black;
   color: white;
+}
+
+.f1 {
+  margin: 2px;
+  display: inline-block;
+  font-size: 14;
+  font-family: 'Roboto', sans-serif;
+}
+
+.f2 {
+  margin: 2px;
+  display: inline-block;
+  font-size: 14;
+  font-family: 'Roboto', sans-serif;
+}
+
+.f3 {
+  margin: 2px;
+  display: inline-block;
+  font-size: 14;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+  .fbox {
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (orientation: landscape) {
+  .fbox {
+    height: 650px;
+  }
 }
